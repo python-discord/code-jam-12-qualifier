@@ -179,6 +179,7 @@ You are expected to implement the following query selectors:
 | `tag.class` | Selects nodes by their tag name and class. | `div.container` |
 | `tag#id` | Selects a nodes by their tag name and ID. | `div#topDiv` |
 | `tag.class#id` | Selects nodes by their tag name, class, and ID. | `div.container#topDiv` |
+| `tag#id.class` | Same as above, only reversed (your solution should not care about order) | `div#topDiv.container` |
 | `tag, tag` | Selects nodes by given multiple tag names to match. For example `div, p` will match both `div` and `p` tags. | `div, p` |
 
 To clarify, the `tag, tag` multi-selector should be able to support `tag.class`, `tag#id`, and `tag.class#id` entries.

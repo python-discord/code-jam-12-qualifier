@@ -355,6 +355,7 @@ The DOM (Document Object Model) is a programming interface for websites and web 
 
 <details>
 <summary>
+
 ## Bonus Task
 
 This is a bonus section for your own practice and is not required to submit the qualifier.

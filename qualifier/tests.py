@@ -103,7 +103,7 @@ class TestQuerySelector(unittest.TestCase):
         answer = [node.children[0].children[4]]
         self.assertCountEqual(result, answer)
 
-    def test_tag_multi_class(self):
+    def test_id_multi_class(self):
         node = self.node_test1
         result = solution(node, "#home-link.colour-primary.button")
         answer = [node.children[0].children[4]]
